@@ -72,6 +72,7 @@ uint8_t ecu_simClass::update(void)
      Serial.print(can_MsgRx.buf[0]);Serial.print(" ");
      Serial.print(can_MsgRx.buf[1]);Serial.print(" ");
      Serial.print(can_MsgRx.buf[2]);Serial.print(" ");
+     Serial.print(can_MsgRx.buf[3]);Serial.print(" ");
      Serial.print(can_MsgRx.buf[4]);Serial.print(" ");
      Serial.print(can_MsgRx.buf[5]);Serial.print(" ");
      Serial.print(can_MsgRx.buf[6]);Serial.print(" ");
