@@ -129,7 +129,6 @@ uint8_t ecu_simClass::update(void)
                     can_MsgTx.buf[4] = 0x19;
                     can_MsgTx.buf[5] = 0x30;
                     can_MsgTx.buf[6] = 0x12;
-                    can_MsgTx.buf[5] = 0x00;
                     can1.write(can_MsgTx);  
                     break;
                 
